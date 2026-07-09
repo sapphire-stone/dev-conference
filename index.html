@@ -1,44 +1,91 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developers Conference</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+</head>
 
-  <body>
+<body>
     <!-- NAVBAR STARTS HERE -->
     <nav class="container">
-      <div>
-        <img src="./assets/logo.png" alt="">
-        
-      </div>
-      <div>
-        <ul class="list">
-        <li><a href="">Speakers</a></li>
-        <li><a href="">Schedule</a></li>
-        <li><a href="">Tracks</a></li>
-        <li><a href="">Venue</a></li>
-        <li><a href="">Blog</a></li>
-        </ul>
-      </div>
-      <div><button class="cmn-btn">Register Now</button></div>
+        <div>
+            <img src="./assets/logo.png" alt="" />
+        </div>
+        <div>
+            <ul class="list">
+                <li><a href="">Speakers</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="">Tracks</a></li>
+                <li><a href="">Venue</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+        <div><button class="cmn-btn">Register Now</button></div>
     </nav>
     <!-- HERO BANNER STARTS HERE -->
-    <section class="banner ">
+    <section class="banner">
         <div class="banner-headings">
             <h1>Code. <em>Connect.</em> Create</h1>
-            <p style="font-size: 20px; padding: 10px 100px; text-align: center;" >Join 4000+ engineers, and builders at the premier developer <br> conference of 2026. Three days of cutting-edge talks,hands-on workshops, <br> and meaningful connections.</p>
+            <p style="font-size: 20px; padding: 10px 100px; text-align: center">
+                Join 4000+ engineers, and builders at the premier developer <br />
+                conference of 2026. Three days of cutting-edge talks,hands-on
+                workshops, <br />
+                and meaningful connections.
+            </p>
             <button id="btn">Register Now</button>
         </div>
-      
+    </section>
+    <!-- SPEAKERS SECTION -->
+    <section class="speakers container">
+        <h1>Meet The Speakers</h1>
+        <div class="card-container">
+            <div class="card">
+                <img  style="border-radius: 20px;" src="./assets/andrej.png" alt="andrej">
+                <h5 style="color: rgb(116, 159, 199);""> AI/ML </h5>
+                <h3>Andrej Karpathy</h3>
+                 <h6>Pretraining team, Anthropic</h6>
 
 
+            </div>
+             <div class="card">
+                <img style="border-radius: 20px;" src="./assets/demis.png" alt="Demis">
+                <h5 style="color: rgb(116, 159, 199);">Cloud & Devops</h5>
+                <h3>Andrej Karpathy</h3>
+                <h6>Pretraining team, Anthropic</h6>
+
+
+            </div>
+            
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+                <img style="border-radius: 20px;" src="./assets/gary.png" alt="Demis">
+                <h5 style="color: rgb(116, 159, 199);">Frontend</h5>
+                <h3>Gary Marcus</h3>
+                <h6>Staff engineer, Vercel</h6>
+
+
+            </div>
+            <div class="card">
+                <img style="border-radius: 20px;" src="./assets/mustafa.png" alt="Demis">
+                <h5 style="color: rgb(116, 159, 199);">Security</h5>
+                <h3>Mustafa Suleyman</h3>
+                <h6>PCEO of Microsoft & AI</h6>
+
+
+            </div>
+    </div>
 
     </section>
-  </body>
+</body>
+
 </html>
