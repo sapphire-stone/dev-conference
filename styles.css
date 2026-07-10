@@ -1,8 +1,9 @@
 * {
   margin: 0px;
+  font-family: "Inter", sans-serif;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
 }
 nav {
@@ -80,31 +81,87 @@ a {
   font-family: "Inter", sans-serif;
   text-align: left;
   /* box-shadow: 1px 3px 25px; */
-  padding: 2px;  
+  padding: 2px;
 }
-.speakers h1
-{
-    font-family:'Inter', sans-serif; 
-    text-align: center;
-    width: 100%;
-    /* background-color: aquamarine;  */
-    padding: 30px ;
-    margin-left: 50px;
-    font-size: 40px;
+.speakers h1 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 100%;
+  /* background-color: aquamarine;  */
+  padding: 30px;
+  margin-left: 50px;
+  font-size: 40px;
 }
-#btn:hover
-{
-    background-color: white;
-    color: rgb(29, 78, 216);
+#btn:hover {
+  background-color: white;
+  color: rgb(29, 78, 216);
 }
-.cmn-btn:hover
+.cmn-btn:hover {
+  background-color: rgb(148, 107, 243);
+  color: rgb(231, 229, 225);
+}
+.outline-btn {
+  background-color: #575757;
+}
+.price {
+  margin: 60px;
+  text-align: center;
+  align-items: center;
+  /* background-color: aqua; */
+  padding: 30px;
+}
+/* card
 {
-    background-color: rgb(148, 107, 243);
-    color: rgb(231, 229, 225);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+    align-items: center;
+    
 
-}
-.outline-btn
-{
-    background-color: #575757;
+}  */
 
+.listcard {
+  margin: 1px;
+  /* align-items: left;  */
+  /* background-color: #2563EB; */
+  line-height: 30px;
+}
+li
+{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+li::marker
+{
+color: #2563eb;
+}
+
+.card-btn {
+  background-color: rgb(252, 252, 253);
+  border-radius: 8px;
+  padding: 10px 90px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 15px;
+  font-family: "Inter" sans-serif;
+  cursor: pointer;
+  color: #2563eb;
+  margin-top: 20px;
+  margin-right: 10px;
+  border: 1px solid #2563eb;
+}
+.p-card {
+  margin-top: 20px;
+  border: 1px solid rgb(53, 52, 52);
+  text-align: left;
+  box-shadow: 10px 10px 5px rgb(97, 96, 96);
+  width: 300px;
+  height: 350px;
+  /* padding: 50px 70px; */
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+  /* align-items: left; */
+  padding: 32px 32px;
 }
