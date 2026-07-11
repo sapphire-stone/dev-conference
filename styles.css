@@ -103,13 +103,13 @@ a {
 .outline-btn {
   background-color: #575757;
 }
-.price {
+/* .price {
   margin: 60px;
   text-align: center;
   align-items: center;
-  /* background-color: aqua; */
+  background-color: aqua;
   padding: 30px;
-}
+} */
 /* card
 {
     margin-top: 20px;
@@ -164,4 +164,130 @@ color: #2563eb;
   border-radius: 10px;
   /* align-items: left; */
   padding: 32px 32px;
+}
+.p-m-card
+{
+  margin-top: 20px;
+  border: 1px solid rgb(53, 52, 52);
+  text-align: left;
+  box-shadow: 10px 10px 5px rgb(97, 96, 96);
+  width: 300px;
+  height: 350px;
+  /* padding: 50px 70px; */
+  border: 1px solid #7a7a7a;
+  border-radius: 10px;
+  /* align-items: left; */
+  padding: 32px 32px;
+  background-color: #0D1B2A;
+}
+.m-listcard
+   {
+  margin: 1px;
+  /* align-items: left;  */
+  /* background-color: #2563EB; */
+  line-height: 30px;
+  color: aliceblue;
+}
+.m-btn 
+{
+   background-color: #2563eb;
+  border-radius: 8px;
+  padding: 10px 90px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 15px;
+  font-family: "Inter" sans-serif;
+  cursor: pointer;
+  color: #f9fafc;
+  margin-top: 20px;
+  margin-right: 10px;
+  border: 1px solid #2563eb;
+}
+.p-card-container
+{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+}
+.card-headings
+{
+  margin-top: 200px;
+   line-height: 50px;
+  text-align: center;
+}
+.faq{
+    padding:100px 10%;
+    /* background:#f8fbff; */
+}
+
+.faq-heading{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.faq-heading h2{
+    font-size:42px;
+    color:#0D1B2A;
+    margin-bottom:15px;
+}
+
+.faq-heading p{
+    color:#575757;
+    font-size:18px;
+}
+
+.faq-container{
+    max-width:850px;
+    margin:auto;
+}
+
+.faq-container details{
+    /* background:#fff; */
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    overflow:hidden;
+}
+
+.faq-container summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 28px;
+    font-size:18px;
+    font-weight:600;
+    color:0D1B2A;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.faq-container summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-container summary::after{
+    content:"+";
+    font-size:26px;
+    color: #0D1B2A;
+    transition:.3s;
+}
+
+.faq-container details[open] summary::after{
+    content:"−";
+}
+
+.faq-container p{
+    padding:0 28px 24px;
+    color:#575757;
+    line-height:1.8;
+    font-size:16px;
+}
+.foot1
+{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+
 }
