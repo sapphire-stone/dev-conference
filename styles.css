@@ -75,6 +75,12 @@ a {
   justify-content: space-between;
   gap: 20px;
 }
+.card-headings
+{
+  margin-top: 150px;
+   line-height: 50px;
+  text-align: center;
+}
 .card {
   border-radius: 20px;
   border: 1px solid rgb(214, 214, 214);
@@ -207,15 +213,10 @@ color: #2563eb;
 {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 50px;  
 
 }
-.card-headings
-{
-  margin-top: 200px;
-   line-height: 50px;
-  text-align: center;
-}
+
 .faq{
     padding:100px 10%;
     /* background:#f8fbff; */
@@ -286,8 +287,16 @@ color: #2563eb;
 .foot1
 {
   display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
+  justify-content: space-between;
+  background-color: #0D1B2A;
+  gap: 20px;
+  height: 50px;
+  padding:30px;
   align-items: center;
 
+}
+.fheading
+{
+  display: flex;
+  gap: 30px;
 }
